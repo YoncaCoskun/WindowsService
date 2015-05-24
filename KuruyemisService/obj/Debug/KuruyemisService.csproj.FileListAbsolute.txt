@@ -1,0 +1,12 @@
+\\psf\home\documents\visual studio 2013\Projects\HomeWorkWindowsService\KuruyemisService\bin\Debug\KuruyemisService.exe.config
+\\psf\home\documents\visual studio 2013\Projects\HomeWorkWindowsService\KuruyemisService\bin\Debug\KuruyemisService.exe
+\\psf\home\documents\visual studio 2013\Projects\HomeWorkWindowsService\KuruyemisService\bin\Debug\KuruyemisService.pdb
+\\psf\home\documents\visual studio 2013\Projects\HomeWorkWindowsService\KuruyemisService\bin\Debug\EntityFramework.dll
+\\psf\home\documents\visual studio 2013\Projects\HomeWorkWindowsService\KuruyemisService\bin\Debug\EntityFramework.SqlServer.dll
+\\psf\home\documents\visual studio 2013\Projects\HomeWorkWindowsService\KuruyemisService\bin\Debug\EntityFramework.xml
+\\psf\home\documents\visual studio 2013\Projects\HomeWorkWindowsService\KuruyemisService\bin\Debug\EntityFramework.SqlServer.xml
+\\psf\home\documents\visual studio 2013\Projects\HomeWorkWindowsService\KuruyemisService\obj\Debug\KuruyemisService.csprojResolveAssemblyReference.cache
+\\psf\home\documents\visual studio 2013\Projects\HomeWorkWindowsService\KuruyemisService\obj\Debug\KuruyemisService.exe
+\\psf\home\documents\visual studio 2013\Projects\HomeWorkWindowsService\KuruyemisService\obj\Debug\KuruyemisService.pdb
+\\psf\home\documents\visual studio 2013\Projects\HomeWorkWindowsService\KuruyemisService\obj\Debug\KuruyemisService.ProjectInstaller.resources
+\\psf\home\documents\visual studio 2013\Projects\HomeWorkWindowsService\KuruyemisService\obj\Debug\KuruyemisService.csproj.GenerateResource.Cache

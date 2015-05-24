@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="YilmazlarKuruyemisModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="tblSube">
+    <Key>
+      <PropertyRef Name="SubeId" />
+    </Key>
+    <Property Name="SubeId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SubeAd" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblUrun">
+    <Key>
+      <PropertyRef Name="UrunId" />
+    </Key>
+    <Property Name="UrunId" Type="int" Nullable="false" />
+    <Property Name="UrunAd" Type="nvarchar" MaxLength="50" />
+    <Property Name="Fiyat" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="Stok" Type="int" />
+  </EntityType>
+  <EntityType Name="tblUrunGecmisi">
+    <Key>
+      <PropertyRef Name="KayitId" />
+    </Key>
+    <Property Name="KayitId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UrunId" Type="int" />
+    <Property Name="UrunAd" Type="nvarchar" MaxLength="50" />
+    <Property Name="Fiyat" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="Stok" Type="int" />
+    <Property Name="IslemTarihi" Type="datetime" />
+    <Property Name="DosyaTarihi" Type="date" />
+    <Property Name="SubeId" Type="int" />
+  </EntityType>
+  <EntityContainer Name="YilmazlarKuruyemisModelStoreContainer">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblSube" EntityType="Self.tblSube" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblUrun" EntityType="Self.tblUrun" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblUrunGecmisi" EntityType="Self.tblUrunGecmisi" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
